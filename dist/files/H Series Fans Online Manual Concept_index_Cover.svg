@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layout" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 2200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dc3714;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-6, .cls-5 {
+        font-family: MusticaPro-Bold, 'Mustica Pro';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 185.16px;
+      }
+
+      .cls-7 {
+        font-family: MusticaPro-Medium, 'Mustica Pro';
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        font-size: 103.12px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" y="-166" width="1170" height="2532"/>
+  <text class="cls-3" transform="translate(245.33 1154.33)"><tspan class="cls-6" x="0" y="0">H </tspan><tspan class="cls-7" x="176.83" y="0">SERIES</tspan><tspan class="cls-7"><tspan x="442.17" y="198.39">FAN</tspan></tspan></text>
+  <text class="cls-5" transform="translate(441.63 1964.79)"><tspan x="0" y="0">USER GUIDE</tspan></text>
+  <g>
+    <polygon class="cls-4" points="966.22 361.56 902.44 234 902.44 361.56 966.22 361.56"/>
+    <polygon class="cls-4" points="1030 234 902.44 234 1030 361.56 1030 234"/>
+  </g>
+  <text class="cls-2" transform="translate(811.81 1845.33)"><tspan x="0" y="0">ONLINE</tspan></text>
+</svg>
