@@ -102,6 +102,23 @@
         afterResponsive: function(isResponsive){
         }
     });
+
+	let resizeTimeout;
+let previousZoom = window.devicePixelRatio;
+
+window.addEventListener('resize', () => {
+  const currentZoom = window.devicePixelRatio;
+
+  if (currentZoom !== previousZoom) {
+    // 縮放時暫停 fullPage 自動滾動
+    fullpage_api.setAutoScrolling(false);
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      fullpage_api.setAutoScrolling(true);
+      previousZoom = currentZoom;
+    }, 800); // 延遲時間可微調
+  }
+});
 </script>
 
 </body>
