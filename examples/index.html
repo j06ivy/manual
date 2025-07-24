@@ -102,23 +102,60 @@
         }
     });
 
-	let resizeTimeout;
-let previousZoom = window.devicePixelRatio;
+//no scroll when zoom
+  let lastZoom = window.devicePixelRatio;
+  let zoomLockActive = false;
 
-window.addEventListener('resize', () => {
-  const currentZoom = window.devicePixelRatio;
+  function lockScrollOnZoom() {
+    const currentZoom = window.devicePixelRatio;
 
-  if (currentZoom !== previousZoom) {
-    // 縮放時暫停 fullPage 自動滾動
-    fullpage_api.setAutoScrolling(false);
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(() => {
-      fullpage_api.setAutoScrolling(true);
-      previousZoom = currentZoom;
-    }, 800); // 延遲時間可微調
+    if (currentZoom !== 1 && !zoomLockActive) {
+      zoomLockActive = true;
+      // 鎖住 fullPage.js 的滾動功能
+      myFullpage.setAllowScrolling(false);
+      myFullpage.setKeyboardScrolling(false);
+      document.body.classList.add("zoom-locked");
+      console.log("Zoom detected: scroll disabled");
+    } else if (currentZoom === 1 && zoomLockActive) {
+      zoomLockActive = false;
+      // 回復滾動
+      myFullpage.setAllowScrolling(true);
+      myFullpage.setKeyboardScrolling(true);
+      document.body.classList.remove("zoom-locked");
+      console.log("Zoom reset: scroll re-enabled");
+    }
+
+    lastZoom = currentZoom;
   }
-});
-</script>
 
+  window.addEventListener("resize", () => {
+    lockScrollOnZoom();
+  });
+
+  window.addEventListener("wheel", (e) => {
+    if (e.ctrlKey) {
+      lockScrollOnZoom();
+    }
+  });
+
+  window.addEventListener("load", () => {
+    lockScrollOnZoom();
+  });
+</script>
+<style>
+  body.zoom-locked::after {
+    content: "請將瀏覽器縮放調回 100%（Ctrl+0）以恢復滾動";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffefc5;
+    color: #000;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    z-index: 9999;
+  }
+</style>
 </body>
 </html>
