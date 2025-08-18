@@ -98,7 +98,7 @@ html.fp-enabled,
     pointer-events: none;
 }
 #fp-nav.fp-right {
-    right: 17px;
+    right: 0px;
 }
 #fp-nav.fp-left {
     left: 17px;
@@ -165,7 +165,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #333;
+    background: #ccc;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
