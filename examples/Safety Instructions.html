@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HAVN | H SERIRES FAN | Safety Instructions</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    body {
+     font-family: "Outfit","SimHei", "Microsoft YaHei", "PingFang SC", sans-serif;
+      margin: 0;
+      padding: 20px 40px;
+      background-color: #f9f9f9;
+      color: #333;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+        padding-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    article {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+    }
+    article.hidden { display: none; }
+    .language-dropdown{
+        font-size: 1.3rem;
+        padding: 10px;
+         margin-left: 1rem;
+        border-radius: 6px;
+        border: 1px #333 solid;
+        box-sizing: border-box;
+         appearance: none; 
+        -webkit-appearance: none; 
+        -moz-appearance: none;
+         background: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") no-repeat right 10px center;
+        background-color: #fff;
+        background-size: 2rem;
+    }
+    .language-dropdown option{
+        border: 1px #333 solid;
+        font-size: 1.3rem;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #cf391a;
+    }
+
+    h3 {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    p {
+      margin: 0 0 8px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 18px; /* 手機字體放大 */
+      }
+      .language-dropdown{
+        width: 100%;
+        margin: 1rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Safety Instructions</h1>
+    <!-- 下拉選單 -->
+  <label for="languageFilter"><strong>Select Language:</strong></label>
+  <select id="languageFilter" class="language-dropdown">
+    <option value="all">Show All</option>
+    <option value="English">English</option>
+    <option value="Español">Español</option>
+    <option value="Deutsch">Deutsch</option>
+    <option value="Français">Français</option>
+    <option value="Nederlands">Nederlands</option>
+    <option value="Italiano">Italiano</option>
+    <option value="Svenska">Svenska</option>
+    <option value="Dansk">Dansk</option>
+    <option value="Magyar">Magyar</option>
+    <option value="Português - Europeu">Português - Europeu</option>
+    <option value="Português - Brasil">Português - Brasil</option>
+    <option value="Polski">Polski</option>
+    <option value="한국어">한국어</option>
+    <option value="日本語">日本語</option>
+    <option value="简体中文">简体中文</option>
+    <option value="Türkçe">Türkçe</option>
+    <option value="Русский">Русский</option>
+    <option value="Suomi">Suomi</option>
+    <option value="العربية">العربية</option>
+  </select>
+  <div class="grid">
+
+    <!-- 英文 -->
+    <article>
+      <h2>English</h2>
+      <h3>Mechanical Safety</h3>
+      <p>Protective gloves are recommended during assembly.</p>
+      <p>Do not stand or lean on the case.</p>
+      <p>Excessive weight may affect the structure of the case.</p>
+      <h3>Electrical Safety</h3>
+      <p>Only use compatible components.</p>
+      <p>Ensure proper grounding to avoid static discharge.</p>
+      <h3>Ventilation and Overheating Prevention</h3>
+      <p>Do not cover ventilation slots.</p>
+      <p>Regularly clean fans and filters to prevent overheating.</p>
+      <h3>Environmental Safety</h3>
+      <p>Keep the case away from liquids and moisture.</p>
+      <p>Not suitable for children under 12 years of age.</p>
+    </article>
+
+    <!-- 西班牙文 -->
+    <article>
+      <h2>Español</h2>
+      <h3>Seguridad Mecánica</h3>
+      <p>Se recomienda usar guantes protectores durante el montaje.</p>
+      <p>No se pare ni se apoye en la carcasa.</p>
+      <p>El peso excesivo puede afectar la estructura de la carcasa.</p>
+      <h3>Seguridad Eléctrica</h3>
+      <p>Utilice solo componentes compatibles.</p>
+      <p>Asegúrese de una conexión a tierra adecuada para evitar descargas estáticas.</p>
+      <h3>Prevención de Ventilación y Sobrecalentamiento</h3>
+      <p>No cubra las ranuras de ventilación.</p>
+      <p>Limpie regularmente los ventiladores y filtros para evitar el sobrecalentamiento.</p>
+      <h3>Seguridad Ambiental</h3>
+      <p>Mantenga la carcasa lejos de líquidos y humedad.</p>
+      <p>No es adecuada para niños menores de 12 años.</p>
+    </article>
+
+    <!-- 德文 -->
+    <article>
+      <h2>Deutsch</h2>
+      <h3>Mechanische Sicherheit</h3>
+      <p>Schutzhandschuhe werden während der Montage empfohlen.</p>
+      <p>Nicht auf das Gehäuse stellen oder lehnen.</p>
+      <p>Übermäßiges Gewicht kann die Struktur des Gehäuses beeinträchtigen.</p>
+      <h3>Elektrische Sicherheit</h3>
+      <p>Verwenden Sie nur kompatible Komponenten.</p>
+      <p>Sorgen Sie für eine ordnungsgemäße Erdung, um statische Entladungen zu vermeiden.</p>
+      <h3>Belüftung und Überhitzungsschutz</h3>
+      <p>Bedecken Sie keine Lüftungsschlitze.</p>
+      <p>Reinigen Sie Lüfter und Filter regelmäßig, um Überhitzung zu vermeiden.</p>
+      <h3>Umweltsicherheit</h3>
+      <p>Halten Sie das Gehäuse von Flüssigkeiten und Feuchtigkeit fern.</p>
+      <p>Nicht geeignet für Kinder unter 12 Jahren.</p>
+    </article>
+
+    <!-- 法文 -->
+    <article>
+      <h2>Français</h2>
+      <h3>Sécurité Mécanique</h3>
+      <p>Le port de gants de protection est recommandé lors de l'assemblage.</p>
+      <p>Ne vous tenez pas debout ou ne vous appuyez pas sur le boîtier.</p>
+      <p>Un poids excessif peut affecter la structure du boîtier.</p>
+      <h3>Sécurité Électrique</h3>
+      <p>Utilisez uniquement des composants compatibles.</p>
+      <p>Assurez une mise à la terre adéquate pour éviter les décharges statiques.</p>
+      <h3>Prévention de la Ventilation et de la Surchauffe</h3>
+      <p>Ne couvrez pas les fentes de ventilation.</p>
+      <p>Nettoyez régulièrement les ventilateurs et les filtres pour éviter la surchauffe.</p>
+      <h3>Sécurité Environnementale</h3>
+      <p>Gardez le boîtier à l'écart des liquides et de l'humidité.</p>
+      <p>Non adapté aux enfants de moins de 12 ans.</p>
+    </article>
+
+    <!-- 荷蘭文 -->
+    <article>
+      <h2>Nederlands</h2>
+      <h3>Mechanische Veiligheid</h3>
+      <p>Beschermende handschoenen worden aanbevolen tijdens de montage.</p>
+      <p>Ga niet op de behuizing staan of leunen.</p>
+      <p>Overmatig gewicht kan de structuur van de behuizing aantasten.</p>
+      <h3>Elektrische Veiligheid</h3>
+      <p>Gebruik alleen compatibele componenten.</p>
+      <p>Zorg voor een goede aarding om statische ontlading te voorkomen.</p>
+      <h3>Ventilatie en Oververhittingspreventie</h3>
+      <p>Bedek de ventilatiesleuven niet.</p>
+      <p>Reinig ventilatoren en filters regelmatig om oververhitting te voorkomen.</p>
+      <h3>Milieuveiligheid</h3>
+      <p>Houd de behuizing uit de buurt van vloeistoffen en vocht.</p>
+      <p>Niet geschikt voor kinderen onder de 12 jaar.</p>
+    </article>
+
+    <!-- 義大利文 -->
+    <article>
+      <h2>Italiano</h2>
+      <h3>Sicurezza Meccanica</h3>
+      <p>Si consiglia l'uso di guanti protettivi durante il montaggio.</p>
+      <p>Non salire o appoggiarsi al case.</p>
+      <p>Un peso eccessivo potrebbe compromettere la struttura del case.</p>
+      <h3>Sicurezza Elettrica</h3>
+      <p>Usare solo componenti compatibili.</p>
+      <p>Assicurarsi di avere una messa a terra adeguata per evitare scariche elettrostatiche.</p>
+      <h3>Prevenzione della Ventilazione e del Surriscaldamento</h3>
+      <p>Non coprire le fessure di ventilazione.</p>
+      <p>Pulire regolarmente le ventole e i filtri per evitare il surriscaldamento.</p>
+      <h3>Sicurezza Ambientale</h3>
+      <p>Tenere il case lontano da liquidi e umidità.</p>
+      <p>Non adatto a bambini di età inferiore a 12 anni.</p>
+    </article>
+     <!-- 瑞典文 -->
+    <article>
+      <h2>Svenska</h2>
+      <h3>Mekanisk Säkerhet</h3>
+      <p>Skyddshandskar rekommenderas under montering.</p>
+      <p>Stå eller luta dig inte på chassit.</p>
+      <p>Överdriven vikt kan påverka chassits struktur.</p>
+      <h3>Elektrisk Säkerhet</h3>
+      <p>Använd endast kompatibla komponenter.</p>
+      <p>Se till att korrekt jordning för att undvika statisk urladdning.</p>
+      <h3>Ventilation och Överhettningsskydd</h3>
+      <p>Täck inte ventilationsöppningarna.</p>
+      <p>Rengör fläktar och filter regelbundet för att undvika överhettning.</p>
+      <h3>Miljösäkerhet</h3>
+      <p>Håll chassit borta från vätskor och fukt.</p>
+      <p>Inte lämplig för barn under 12 år.</p>
+    </article>
+
+    <!-- 丹麥文 -->
+    <article>
+      <h2>Dansk</h2>
+      <h3>Mekanisk Sikkerhed</h3>
+      <p>Beskyttelseshandsker anbefales under montering.</p>
+      <p>Stå eller læn dig ikke op ad kabinettet.</p>
+      <p>Overdreven vægt kan påvirke kabinettets struktur.</p>
+      <h3>Elektrisk Sikkerhed</h3>
+      <p>Brug kun kompatible komponenter.</p>
+      <p>Sørg for korrekt jordforbindelse for at undgå statisk afladning.</p>
+      <h3>Ventilation og Overophedningsforebyggelse</h3>
+      <p>Dæk ikke ventilationshullerne.</p>
+      <p>Rengør ventilatorer og filtre regelmæssigt for at undgå overophedning.</p>
+      <h3>Miljøsikkerhed</h3>
+      <p>Hold kabinettet væk fra væsker og fugt.</p>
+      <p>Ikke egnet til børn under 12 år.</p>
+    </article>
+
+    <!-- 匈牙利文 -->
+    <article>
+      <h2>Magyar</h2>
+      <h3>Mechanikai Biztonság</h3>
+      <p>Ajánlott védőkesztyű viselése összeszerelés közben.</p>
+      <p>Ne álljon rá vagy támaszkodjon a házra.</p>
+      <p>A túlzott súly károsíthatja a ház szerkezetét.</p>
+      <h3>Elektromos Biztonság</h3>
+      <p>Csak kompatibilis alkatrészeket használjon.</p>
+      <p>Biztosítsa a megfelelő földelést a statikus kisülések elkerülése érdekében.</p>
+      <h3>Szellőzés és Túlmelegedés Megelőzése</h3>
+      <p>Ne takarja el a szellőzőnyílásokat.</p>
+      <p>Rendszeresen tisztítsa a ventilátorokat és a szűrőket a túlmelegedés elkerülése érdekében.</p>
+      <h3>Környezetvédelmi Biztonság</h3>
+      <p>Tartsa távol a házat folyadékoktól és nedvességtől.</p>
+      <p>12 év alatti gyermekek számára nem alkalmas.</p>
+    </article>
+        <!-- 葡萄牙文（歐洲） -->
+    <article>
+      <h2>Português - Europeu</h2>
+      <h3>Segurança Mecânica</h3>
+      <p>Recomenda-se o uso de luvas de proteção durante a montagem.</p>
+      <p>Não se apoie ou fique em pé no gabinete.</p>
+      <p>O peso excessivo pode comprometer a estrutura do gabinete.</p>
+      <h3>Segurança Elétrica</h3>
+      <p>Use apenas componentes compatíveis.</p>
+      <p>Certifique-se de que está bem ligado à terra para evitar descargas estáticas.</p>
+      <h3>Prevenção de Ventilação e Sobreaquecimento</h3>
+      <p>Não cubra as aberturas de ventilação.</p>
+      <p>Limpe regularmente os ventiladores e filtros para evitar sobreaquecimento.</p>
+      <h3>Segurança Ambiental</h3>
+      <p>Mantenha o gabinete afastado de líquidos e humidade.</p>
+      <p>Não adequado para crianças com menos de 12 anos.</p>
+    </article>
+
+    <!-- 葡萄牙文（巴西） -->
+    <article>
+      <h2>Português - Brasil</h2>
+      <h3>Segurança Mecânica</h3>
+      <p>Recomenda-se o uso de luvas de proteção durante a montagem.</p>
+      <p>Não fique de pé ou apoie-se no gabinete.</p>
+      <p>O peso excessivo pode comprometer a estrutura do gabinete.</p>
+      <h3>Segurança Elétrica</h3>
+      <p>Use apenas componentes compatíveis.</p>
+      <p>Certifique-se de uma ligação à terra adequada para evitar descargas estáticas.</p>
+      <h3>Prevenção de Ventilação e Superaquecimento</h3>
+      <p>Não cubra as aberturas de ventilação.</p>
+      <p>Limpe regularmente os ventiladores e filtros para evitar superaquecimento.</p>
+      <h3>Segurança Ambiental</h3>
+      <p>Mantenha o gabinete longe de líquidos e umidade.</p>
+      <p>Não é adequado para crianças menores de 12 anos.</p>
+    </article>
+
+    <!-- 波蘭文 -->
+    <article>
+      <h2>Polski</h2>
+      <h3>Bezpieczeństwo Mechaniczne</h3>
+      <p>Zaleca się noszenie rękawic ochronnych podczas montażu.</p>
+      <p>Nie stawaj ani nie opieraj się na obudowie.</p>
+      <p>Nadmierna waga może wpłynąć na strukturę obudowy.</p>
+      <h3>Bezpieczeństwo Elektryczne</h3>
+      <p>Używaj tylko kompatybilnych komponentów.</p>
+      <p>Zadbaj o odpowiednie uziemienie, aby uniknąć wyładowań elektrostatycznych.</p>
+      <h3>Wentylacja i Zapobieganie Przegrzaniu</h3>
+      <p>Nie zasłaniaj otworów wentylacyjnych.</p>
+      <p>Regularnie czyść wentylatory i filtry, aby zapobiec przegrzaniu.</p>
+      <h3>Bezpieczeństwo Środowiskowe</h3>
+      <p>Trzymaj obudowę z dala od cieczy i wilgoci.</p>
+      <p>Nieodpowiednie dla dzieci poniżej 12 roku życia.</p>
+    </article>
+
+    <!-- 韓文 -->
+    <article>
+      <h2>한국어</h2>
+      <h3>기계적 안전</h3>
+      <p>조립 시 보호 장갑을 착용하는 것이 좋습니다.</p>
+      <p>케이스에 서거나 기대지 마십시오.</p>
+      <p>과도한 무게는 케이스 구조에 영향을 줄 수 있습니다.</p>
+      <h3>전기 안전</h3>
+      <p>호환 가능한 부품만 사용하십시오.</p>
+      <p>정전기 방지를 위해 적절한 접지를 확인하십시오.</p>
+      <h3>환기 및 과열 방지</h3>
+      <p>환기구를 막지 마십시오.</p>
+      <p>과열을 방지하기 위해 팬과 필터를 정기적으로 청소하십시오.</p>
+      <h3>환경 안전</h3>
+      <p>케이스를 액체와 습기로부터 멀리 두십시오.</p>
+      <p>12세 미만 어린이에게 적합하지 않습니다.</p>
+    </article>
+
+    <!-- 日文 -->
+    <article>
+      <h2>日本語</h2>
+      <h3>機械的安全</h3>
+      <p>組み立ての際は保護手袋の使用を推奨します。</p>
+      <p>ケースの上に立ったり、寄りかかったりしないでください。</p>
+      <p>過度な重量はケースの構造に影響を与える可能性があります。</p>
+      <h3>電気的安全</h3>
+      <p>互換性のある部品のみを使用してください。</p>
+      <p>静電気を防ぐために適切な接地を確保してください。</p>
+      <h3>通気と過熱防止</h3>
+      <p>通気口を塞がないでください。</p>
+      <p>過熱を防ぐために、ファンとフィルターを定期的に清掃してください。</p>
+      <h3>環境安全</h3>
+      <p>ケースを液体や湿気から遠ざけてください。</p>
+      <p>12歳未満の子供には適していません。</p>
+    </article>
+
+    <!-- 簡體中文 -->
+    <article>
+      <h2>简体中文</h2>
+      <h3>机械安全</h3>
+      <p>建议在组装时佩戴防护手套。</p>
+      <p>请勿站立或倚靠在机箱上。</p>
+      <p>过大的重量可能会影响机箱结构。</p>
+      <h3>电气安全</h3>
+      <p>仅使用兼容的组件。</p>
+      <p>确保正确接地以避免静电放电。</p>
+      <h3>通风与过热防护</h3>
+      <p>请勿覆盖通风口。</p>
+      <p>定期清洁风扇和滤网以防止过热。</p>
+      <h3>环境安全</h3>
+      <p>请远离液体和潮湿环境。</p>
+      <p>不适合12岁以下儿童使用。</p>
+    </article>
+
+    <!-- 繁體中文 -->
+    <article>
+      <h2>繁體中文</h2>
+      <h3>機械安全</h3>
+      <p>建議在組裝時佩戴防護手套。</p>
+      <p>請勿站立或倚靠在機箱上。</p>
+      <p>過大的重量可能會影響機箱結構。</p>
+      <h3>電氣安全</h3>
+      <p>僅使用兼容的組件。</p>
+      <p>確保正確接地以避免靜電放電。</p>
+      <h3>通風與過熱防護</h3>
+      <p>請勿覆蓋通風口。</p>
+      <p>定期清潔風扇和濾網以防止過熱。</p>
+      <h3>環境安全</h3>
+      <p>請遠離液體和潮濕環境。</p>
+      <p>不適合12歲以下兒童使用。</p>
+    </article>
+
+    <!-- 土耳其文 -->
+    <article>
+      <h2>Türkçe</h2>
+      <h3>Mekanik Güvenlik</h3>
+      <p>Montaj sırasında koruyucu eldiven kullanılması önerilir.</p>
+      <p>Kasanın üzerine çıkmayın veya yaslanmayın.</p>
+      <p>Aşırı ağırlık kasanın yapısını etkileyebilir.</p>
+      <h3>Elektrik Güvenliği</h3>
+      <p>Sadece uyumlu bileşenler kullanın.</p>
+      <p>Statik boşalmayı önlemek için doğru topraklama yapıldığından emin olun.</p>
+      <h3>Havalandırma ve Aşırı Isınma Önlemleri</h3>
+      <p>Havalandırma deliklerini kapatmayın.</p>
+      <p>Aşırı ısınmayı önlemek için fanları ve filtreleri düzenli olarak temizleyin.</p>
+      <h3>Çevresel Güvenlik</h3>
+      <p>Kasayı sıvılardan ve nemden uzak tutun.</p>
+      <p>12 yaşın altındaki çocuklar için uygun değildir.</p>
+    </article>
+
+    <!-- 俄文 -->
+    <article>
+      <h2>Русский</h2>
+      <h3>Механическая безопасность</h3>
+      <p>Рекомендуется использовать защитные перчатки при сборке.</p>
+      <p>Не стойте и не опирайтесь на корпус.</p>
+      <p>Чрезмерный вес может повлиять на структуру корпуса.</p>
+      <h3>Электробезопасность</h3>
+      <p>Используйте только совместимые компоненты.</p>
+      <p>Обеспечьте правильное заземление, чтобы избежать статического разряда.</p>
+      <h3>Профилактика вентиляции и перегрева</h3>
+      <p>Не закрывайте вентиляционные отверстия.</p>
+      <p>Регулярно очищайте вентиляторы и фильтры, чтобы предотвратить перегрев.</p>
+      <h3>Экологическая безопасность</h3>
+      <p>Держите корпус вдали от жидкостей и влаги.</p>
+      <p>Не подходит для детей младше 12 лет.</p>
+    </article>
+
+    <!-- 芬蘭文 -->
+    <article>
+      <h2>Suomi</h2>
+      <h3>Mekaaninen Turvallisuus</h3>
+      <p>Suositellaan suojakäsineiden käyttöä kokoamisen aikana.</p>
+      <p>Älä seiso tai nojaa koteloon.</p>
+      <p>Liiallinen paino voi vaikuttaa kotelon rakenteeseen.</p>
+      <h3>Sähköturvallisuus</h3>
+      <p>Käytä vain yhteensopivia komponentteja.</p>
+      <p>Varmista asianmukainen maadoitus estääksesi staattisen purkauksen.</p>
+      <h3>Tuuletus ja Ylikuumenemisen Ehkäisy</h3>
+      <p>Älä peitä tuuletusaukkoja.</p>
+      <p>Puhdista tuulettimet ja suodattimet säännöllisesti ylikuumenemisen välttämiseksi.</p>
+      <h3>Ympäristöturvallisuus</h3>
+      <p>Pidä kotelo poissa nesteistä ja kosteudesta.</p>
+      <p>Ei sovellu alle 12-vuotiaille lapsille.</p>
+    </article>
+
+    <!-- 阿拉伯文 -->
+    <article>
+      <h2>العربية</h2>
+      <h3>السلامة الميكانيكية</h3>
+      <p>يُوصى بارتداء قفازات واقية أثناء التجميع.</p>
+      <p>لا تقف أو تتكئ على الهيكل.</p>
+      <p>قد يؤثر الوزن الزائد على بنية الهيكل.</p>
+      <h3>السلامة الكهربائية</h3>
+      <p>استخدم مكونات متوافقة فقط.</p>
+      <p>تأكد من التأريض الصحيح لتجنب التفريغ الكهروستاتيكي.</p>
+      <h3>التهوية ومنع ارتفاع الحرارة</h3>
+      <p>لا تغطِ فتحات التهوية.</p>
+      <p>قم بتنظيف المراوح والفلاتر بانتظام لتجنب ارتفاع الحرارة.</p>
+      <h3>السلامة البيئية</h3>
+      <p>أبعد الهيكل عن السوائل والرطوبة.</p>
+      <p>غير مناسب للأطفال دون سن 12 عامًا.</p>
+    </article>
+
+  </div>
+</body>
+ <script>
+    const select = document.getElementById("languageFilter");
+    const articles = document.querySelectorAll("article");
+
+    select.addEventListener("change", function() {
+      const selected = this.value;
+      articles.forEach(article => {
+        const lang = article.querySelector("h2").innerText.trim();
+        if (selected === "all" || lang === selected) {
+          article.classList.remove("hidden");
+        } else {
+          article.classList.add("hidden");
+        }
+      });
+    });
+  </script>
+</html>

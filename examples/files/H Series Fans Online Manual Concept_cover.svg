@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1170 2182.68">
+  <defs>
+    <clipPath id="clippath">
+      <rect y="-174.66" width="1170" height="2532" style="fill: none;"/>
+    </clipPath>
+  </defs>
+  <g style="clip-path: url(#clippath);">
+    <rect y="-174.66" width="1170" height="2532" style="fill: #cf391a;"/>
+    <text transform="translate(245.33 1145.67)" style="fill: #fff; font-family: MusticaPro-Bold, &apos;Mustica Pro&apos;; font-size: 185.16px; font-weight: 700;"><tspan x="0" y="0">H </tspan></text>
+    <text transform="translate(422.17 1145.67)" style="fill: #fff; font-family: MusticaPro-Medium, &apos;Mustica Pro&apos;; font-size: 185.16px; font-weight: 500;"><tspan x="0" y="0" style="letter-spacing: 0em;">S</tspan><tspan x="117.21" y="0">E</tspan><tspan x="224.6" y="0" style="letter-spacing: 0em;">R</tspan><tspan x="345.33" y="0">IES</tspan></text>
+    <text transform="translate(687.51 1343.98)" style="fill: #fff; font-family: MusticaPro-Medium, &apos;Mustica Pro&apos;; font-size: 185.16px; font-weight: 500;"><tspan x="0" y="0" style="letter-spacing: -.06em;">F</tspan><tspan x="93.88" y="0" style="letter-spacing: 0em;">A</tspan><tspan x="219.42" y="0">N</tspan></text>
+    <text transform="translate(441.63 1956.13)" style="fill: #fff; font-family: MusticaPro-Bold, &apos;Mustica Pro&apos;; font-size: 103.12px; font-weight: 700;"><tspan x="0" y="0" style="letter-spacing: -.02em;">U</tspan><tspan x="69.09" y="0" style="letter-spacing: 0em;">S</tspan><tspan x="131.68" y="0" style="letter-spacing: 0em;">ER GUI</tspan><tspan x="458.97" y="0" style="letter-spacing: 0em;">D</tspan><tspan x="533.42" y="0">E</tspan></text>
+    <polygon points="966.22 352.9 902.44 225.34 902.44 352.9 966.22 352.9" style="fill: #fff;"/>
+    <polygon points="1030 225.34 902.44 225.34 1030 352.9 1030 225.34" style="fill: #fff;"/>
+    <text transform="translate(811.81 1836.67)" style="fill: #fff; font-family: MusticaPro-Bold, &apos;Mustica Pro&apos;; font-size: 60px; font-weight: 700;"><tspan x="0" y="0" style="letter-spacing: 0em;">O</tspan><tspan x="48.18" y="0">NLINE</tspan></text>
+  </g>
+</svg>

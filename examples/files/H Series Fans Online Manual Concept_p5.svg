@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1170 2182.68">
+  <defs>
+    <clipPath id="clippath">
+      <rect y="-174.66" width="1170" height="2532" style="fill: none;"/>
+    </clipPath>
+  </defs>
+  <g style="clip-path: url(#clippath);">
+    <text transform="translate(204.99 243.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">30.8(dBA)</tspan></text>
+    <text transform="translate(204.99 423.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">DC 12V</tspan></text>
+    <text transform="translate(204.99 603.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">0.25A</tspan></text>
+    <text transform="translate(204.99 783.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">PBT + 30% Glass Fiber</tspan></text>
+    <text transform="translate(204.99 963.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">PVC-insulated Copper Wire</tspan></text>
+    <text transform="translate(204.99 1143.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">Fiberglass </tspan></text>
+    <text transform="translate(204.99 1323.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">PET</tspan></text>
+    <text transform="translate(204.99 1503.93)" style="fill: #040000; font-family: MusticaPro-Regular, &apos;Mustica Pro&apos;; font-size: 60px;"><tspan x="0" y="0">230g</tspan></text>
+    <text transform="translate(561.82 2142.34)" style="fill: #221714; font-family: MusticaPro-Medium, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 500;"><tspan x="0" y="0">05</tspan></text>
+    <text transform="translate(204.98 172.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">Noise Level</tspan></text>
+    <text transform="translate(204.98 352.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">Rated Voltage</tspan></text>
+    <text transform="translate(204.98 532.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">Rated Current</tspan></text>
+    <text transform="translate(204.98 712.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">Frame &amp; Blade Material</tspan></text>
+    <text transform="translate(204.98 892.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">Wire Material</tspan></text>
+    <text transform="translate(204.98 1072.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">PCB Material</tspan></text>
+    <text transform="translate(204.98 1252.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">Label Material</tspan></text>
+    <text transform="translate(204.98 1432.46)" style="fill: #040000; font-family: MusticaPro-Light, &apos;Mustica Pro&apos;; font-size: 40px; font-weight: 300;"><tspan x="0" y="0">Net Weight (Fan)</tspan></text>
+  </g>
+</svg>

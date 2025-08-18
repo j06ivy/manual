@@ -3,18 +3,21 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Responsive Width - fullPage.js</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
-	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HAVN | H SERIRES FAN | user guide</title>
+	<meta name="author" content="HAVN" />
+	<meta name="description" content="HAVN - H SERIRES FAN user guide" />
+	<meta name="keywords"  content="" />
 	<meta name="Resource-type" content="Document" />
 	<meta name="theme-color" content="transparent">
 	<link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
-	<link rel="stylesheet" type="text/css" href="examples.css" />
 	<style>
-
+	@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 	/* Style for our header texts
 	* --------------------------------------- */
+	html {
+    	scroll-behavior: smooth;
+	}
 	h1{
 		font-size: 5em;
 		font-family: arial,helvetica;
@@ -24,13 +27,104 @@
 	.intro p{
 		color: #fff;
 	}
+	a{
+		transition: color 0.5s ease, background-color 0.5s ease;
+	}
+	a:hover{
+		transition: color 0.5s ease, background-color 0.5s ease;
+	}
 
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section{
 		text-align:center;
 	}
+	.catalog{
+		background-image: url('files/H Series Fans Online Manual Concept_p1.svg');
+		background-repeat: no-repeat;
+		width:initial;
+      	height: 85vh;
+		width: 100vw;
+		background-position: center;
+	}
+	.catalog ul{
+		text-align: left;
+		position: relative;
+		top: 45%;
+		display: inline-block;
+	}
+	.catalog li a{
+		display: inline-block;
+		font-family: "Outfit", sans-serif;
+		text-decoration: none;
+		color: #000;
+		font-weight: 500;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		margin: 1rem;
+	}
+	.catalog li a:hover{
+		color:#cf391a;
+	}
 
+	.info-page{
+		background-image: url('files/H Series Fans Online Manual Concept_p27.svg');
+		background-repeat: no-repeat;
+		width:initial;
+      	height: 85vh;
+		width: 100vw;
+		background-position: center;
+	}
+	.btn-wrapper{
+		text-align: center;
+		position: relative;
+		top: 30%;
+		display: inline-block;
+	}
+	.btn-wrapper a{
+		font-size: 1.5rem;
+		display: block;
+		color:#cf391a;
+		font-weight: 600;
+		padding: 1rem 2rem;
+		text-decoration: none;
+		font-family: "Outfit", sans-serif;
+		margin: 20% 0;
+		border: 1px #cf391a solid;
+		border-radius: 40px;
+		
+	}
+	.btn-wrapper a:hover{
+		background-color:#cf391a ;
+		color: #ffffff;
+	}
+
+	@media screen and (max-width: 768px) {
+		.catalog li a{
+			font-size: 1.3rem;
+			margin: 0.5rem;
+		}
+	}
+	/*
+	/* ---------------Top BTN -------------- */
+	#topBtn {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 999;
+		background-color: #cccccc;
+		color: white;
+		border: none;
+		padding: 16px 16px;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 14px;
+		opacity: 0.8;
+		transition: opacity 0.3s;
+	}
+	#topBtn:hover {
+		opacity: 1;
+	}
 	/* Bottom menu
 	* --------------------------------------- */
 	#infoMenu li a {
@@ -67,40 +161,227 @@
 <div id="fullpage">
 	<div class="section">
 		<div class="intro">
-			<img class="svg-pages" src="../dist/files/H Series Fans Online Manual Concept_Cover.svg"/>
+			<img class="svg-pages" src="files/H Series Fans Online Manual Concept_cover.svg"/>
 		</div>
 	</div>
 	<div class="section">
-			<div class="intro">
-				<img class="svg-pages" src="../dist/files/H Series Fans Online Manual Concept_P1.svg"/>
-			</div>
-	</div>
-	<div class="section">
-			<div class="intro">
-				<img class="svg-pages" src="../dist/files/H Series Fans Online Manual Concept_P2.svg"/>
-			</div>
-	</div>
-  <div class="section">
-			<div class="intro">
-				<img class="svg-pages" src="../dist/files/H Series Fans Online Manual Concept_P3.svg"/>
-			</div>
-	</div>
+    <div class="intro catalog">
+        <ul>
+			<li><a href="#" data-anchor="spec">Clearance & Speciﬁcations</a></li>
+			<li><a href="#" data-anchor="accessory-kit">Accessory Kit</a></li>
+			<li><a href="#" data-anchor="builder-guide">Builder's Guide</a></li>
+			<li><a href="#" data-anchor="safety-instructions">Safety Instructions</a></li>
+			<li><a href="#" data-anchor="safety-instructions">Warranty Terms</a></li>
+		</ul>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p2.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p3.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p4.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p5.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p6.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p7.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p8.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p9.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p10.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p11.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p12.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p13.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p14.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p15.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p16.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p17.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p18.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p19.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p20.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p21.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p22.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p23.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p24.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p25.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_p26.svg"/>
+    </div>
+</div>
+<div class="section">
+    <div class="intro info-page">
+		<div class="btn-wrapper">
+        	<a href="Safety Instructions.html" target="_blank">Safety Instructions</a>
+			<a href="Warranty Terms.html">Warranty Terms</a>
+		</div>
+    </div>
+</div>
+<div class="section">
+    <div class="intro">
+        <img class="svg-pages" src="files/H Series Fans Online Manual Concept_back.svg"/>
+    </div>
 </div>
 
+</div>
+<button id="topBtn">TOP</button>
 <script type="text/javascript" src="../dist/fullpage.js"></script>
-<script type="text/javascript" src="examples.js"></script>
+
 
 <script type="text/javascript">
+	var totalPages = 29; 
+	var firstLastColor = '#cf391a';
+	var middleColor = '#ffffff';
+
+	document.querySelectorAll('[data-anchor]').forEach(link => {
+    link.addEventListener('click', function(e) {
+			e.preventDefault();
+			fullpage_api.moveTo(this.dataset.anchor);
+		});
+	});
+
+	// Color array
+	var colors = Array(totalPages).fill(middleColor);
+	colors[0] = firstLastColor;
+	colors[totalPages - 1] = firstLastColor;
+
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#dc3714', '#ffffff', '#ffffff'],
+        anchors : [
+			'cover',             // 1 cover
+			'toc',               // 2 catalog
+			'spec',              // 3 spec
+			'page4',             // 4
+			'page5',             // 5
+			'page6',             // 6
+			'page7',             // 7
+			'page8',             // 8
+			'accessory-kit',     // 9 accessory-Kit
+			'page10',            // 10
+			'page11',            // 11
+			'page12',            // 12
+			'page13',            // 13
+			'page14',            // 14
+			'page15',            // 15
+			'page16',            // 16
+			'page17',            // 17
+			'page18',            // 18
+			'page19',            // 19
+			'page20',            // 20
+			'page21',            // 21
+			'page22',            // 22
+			'page23',            // 23
+			'page24',            // 24
+			'page25',            // 25
+			'builder-guide',     // 26 builder-guide
+			'page27',            // 27
+			'safety-instructions', // 28 safety-instructions
+			'page29'             // 29
+		],
+        sectionsColor: colors,
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: ['First page', 'Second page', 'Third and last page'],
         responsiveWidth: 900,
+		licenseKey: 'gplv3-license',
         afterResponsive: function(isResponsive){
         }
     });
+	//Go top
+	document.getElementById('topBtn').addEventListener('click', function() {
+		fullpage_api.moveTo('toc');
+	});
+	
 </script>
 </body>
 </html>
