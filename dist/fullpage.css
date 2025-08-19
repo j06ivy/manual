@@ -318,6 +318,7 @@ Not supports in Firefox and IE */
     display: inline-block;
     border-radius: 3px;
     margin: 12px;
+    display: none;
 }
 .fp-noscroll .fp-overflow{
     overflow: hidden;
