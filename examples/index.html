@@ -115,12 +115,13 @@
 		background-color: #cccccc;
 		color: white;
 		border: none;
-		padding: 16px 16px;
+		padding: 16px 10px;
 		border-radius: 4px;
 		cursor: pointer;
 		font-size: 14px;
 		opacity: 0.8;
 		transition: opacity 0.3s;
+		display: none; 
 	}
 	#topBtn:hover {
 		opacity: 1;
@@ -375,7 +376,17 @@
         responsiveWidth: 350,
 		licenseKey: 'gplv3-license',
         afterResponsive: function(isResponsive){
-        }
+        },
+		afterLoad: function(origin, destination, direction){
+		var btn = document.getElementById('topBtn');
+		if(destination.index === 0){
+		// 在第一頁，隱藏
+		btn.style.display = 'none';
+		} else {
+		// 其他頁，顯示
+		btn.style.display = 'block';
+		}
+		}
     });
 	//Go top
 	document.getElementById('topBtn').addEventListener('click', function() {
